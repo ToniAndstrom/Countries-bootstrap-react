@@ -48,7 +48,7 @@ const CountrySingle = (props) => {
     <Container fluid>
       <Row>
         <Col className="mt-5 d-flex justify-content-center">
-          <Image style={{height:"16rem", width:"25rem"}} src={country.flags.svg} />
+          <Image style={{height:"16rem", width:"25rem", border:"solid whitesmoke"}} src={country.flags.svg} />
         </Col>
         <Col>
           <h2>{country.name.common}</h2>
